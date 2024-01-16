@@ -661,7 +661,7 @@ font-family: "Raleway", sans-serif;
 .modal-input:focus{
     border-color: #4D5AE5;
 }
-.modal-input:focus.inputsvg{
+.modal-input:focus .input-svg{
     fill:#4D5AE5;
 }
 
@@ -701,6 +701,7 @@ font-family: "Raleway", sans-serif;
     margin-bottom: 24px;
 }
 .checkbox-input{
+    
 
 }
 .checkbox-label{
@@ -708,9 +709,10 @@ font-family: "Raleway", sans-serif;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    display:block;
 }
 .checkbox-span{
-    width: 16;
+    width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
