@@ -700,13 +700,11 @@ font-family: "Raleway", sans-serif;
 .checkbox-div{
     margin-bottom: 24px;
 }
-.checkboxinp:checked.checkbox-span{
+.checkboxinp:checked + .checkbox-label .checkbox-span{
     background-color: var(--iris);
+    border: none;
 }
-.checkboxinp:checked.checkbox-span{
-    border:none;
-}
-.checkboxinp:checked.checkbox-span{
+.checkboxinp:checked + .checkbox-label .checkbox-span .checkbox-svg{
     fill:var(--light-color);
 }
 .checkbox-label{
