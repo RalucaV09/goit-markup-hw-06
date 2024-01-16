@@ -731,6 +731,7 @@ font-family: "Raleway", sans-serif;
 
 .privacy-policy{
     display: inline-flex;
+    color:var(--blue);
 }
 .button-sign-up{
     display: block;
