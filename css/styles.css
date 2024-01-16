@@ -706,9 +706,7 @@ font-family: "Raleway", sans-serif;
     border: none;
     fill:#F4F4FD;
 }
-.checkboxinp:checked + .checkbox-label .checkbox-span .checkbox-svg{
-    
-}
+
 .checkbox-label{
     font-size: 12px;
     line-height: 1.17;
