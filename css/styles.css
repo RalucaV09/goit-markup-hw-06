@@ -5,7 +5,8 @@
     --dark-blue-var:#2e2f42;
     --blue:#4d5ae5;
     --light-color:#F4F4F4FD;
-    --iris:#404bbf;  
+    --iris:#404bbf;
+    --ivory:#F4F4FD;  
 }
 
 
@@ -705,7 +706,7 @@ font-family: "Raleway", sans-serif;
     border: none;
 }
 .checkboxinp:checked + .checkbox-label .checkbox-span .checkbox-svg{
-    fill:var(--light-color);
+    fill:var(--ivory);
 }
 .checkbox-label{
     font-size: 12px;
