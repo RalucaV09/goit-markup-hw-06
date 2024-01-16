@@ -700,8 +700,10 @@ font-family: "Raleway", sans-serif;
 .checkbox-div{
     margin-bottom: 24px;
 }
-.checkbox-input{
-    
+.checkbox-input:checked~.checkbox-span{
+    background-color:#404bbf;
+    border: none;
+    fill:#F4F4FD;
 
 }
 .checkbox-label{
